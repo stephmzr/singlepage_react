@@ -4,6 +4,9 @@ import image from '../assets/services.jpg';
 
 //Reusable components
 import Services from '../common/Services';
+import Portfolio from '../common/Portfolio';
+import Team from '../common/Team';
+import TimeLine from '../common/TimeLine';
 class Home extends Component {
     render() {
         return(
@@ -17,6 +20,9 @@ class Home extends Component {
                     image={image}
                />
                <Services />
+               <Portfolio />
+               <TimeLine />
+               <Team />
             </div>
         )
     }
